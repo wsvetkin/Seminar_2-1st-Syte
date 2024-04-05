@@ -1,4 +1,28 @@
 h1 {
+    margin: 0;
+    padding: 5px;
     color: rgba(7, 7, 83, 0.925);
     font-size: 20px
+    
+}
+
+.text {
+    color: rgb(115, 134, 134);
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 500px;
+    border: 3px solid red;
+    background-color: bisque;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
